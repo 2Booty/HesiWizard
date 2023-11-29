@@ -1,0 +1,233 @@
+G:\Hesi Wizard\Hesi Wizard\obj\Release\Hesi Wizard.csproj.AssemblyReference.cache
+G:\Hesi Wizard\Hesi Wizard\obj\Release\MainWindow.baml
+G:\Hesi Wizard\Hesi Wizard\obj\Release\1-Click Install.g.cs
+G:\Hesi Wizard\Hesi Wizard\obj\Release\MainWindow.g.cs
+G:\Hesi Wizard\Hesi Wizard\obj\Release\App.g.cs
+G:\Hesi Wizard\Hesi Wizard\obj\Release\Hesi Wizard_MarkupCompile.cache
+G:\Hesi Wizard\Hesi Wizard\obj\Release\Hesi Wizard_MarkupCompile.lref
+G:\Hesi Wizard\Hesi Wizard\obj\Release\App.baml
+G:\Hesi Wizard\Hesi Wizard\obj\Release\1-Click Install.baml
+G:\Hesi Wizard\Hesi Wizard\obj\Release\Hesi Wizard.g.resources
+G:\Hesi Wizard\Hesi Wizard\obj\Release\Avalonia\Resources.Inputs.cache
+G:\Hesi Wizard\Hesi Wizard\obj\Release\Hesi_Wizard.Properties.Resources.resources
+G:\Hesi Wizard\Hesi Wizard\obj\Release\Hesi Wizard.csproj.GenerateResource.cache
+G:\Hesi Wizard\Hesi Wizard\obj\Release\Hesi Wizard.GeneratedMSBuildEditorConfig.editorconfig
+G:\Hesi Wizard\Hesi Wizard\obj\Release\Hesi Wizard.csproj.CoreCompileInputs.cache
+G:\Hesi Wizard\Hesi Wizard\obj\Release\Hesi Wizard.sourcelink.json
+G:\Hesi Wizard\Hesi Wizard\obj\Release\Hesi Wizard.exe
+G:\Hesi Wizard\Hesi Wizard\obj\Release\Hesi Wizard.pdb
+G:\Hesi Wizard\Hesi Wizard\bin\Release\Hesi Wizard.exe.config
+G:\Hesi Wizard\Hesi Wizard\bin\Release\Hesi Wizard.exe
+G:\Hesi Wizard\Hesi Wizard\bin\Release\Hesi Wizard.pdb
+G:\Hesi Wizard\Hesi Wizard\bin\Release\Avalonia.xml
+G:\Hesi Wizard\Hesi Wizard\bin\Release\Avalonia.Base.xml
+G:\Hesi Wizard\Hesi Wizard\bin\Release\Avalonia.Controls.xml
+G:\Hesi Wizard\Hesi Wizard\bin\Release\Avalonia.DesignerSupport.xml
+G:\Hesi Wizard\Hesi Wizard\bin\Release\Avalonia.Dialogs.xml
+G:\Hesi Wizard\Hesi Wizard\bin\Release\Avalonia.Markup.xml
+G:\Hesi Wizard\Hesi Wizard\bin\Release\Avalonia.Markup.Xaml.xml
+G:\Hesi Wizard\Hesi Wizard\bin\Release\Avalonia.Metal.xml
+G:\Hesi Wizard\Hesi Wizard\bin\Release\Avalonia.MicroCom.xml
+G:\Hesi Wizard\Hesi Wizard\bin\Release\Avalonia.OpenGL.xml
+G:\Hesi Wizard\Hesi Wizard\bin\Release\Avalonia.Remote.Protocol.xml
+G:\Hesi Wizard\Hesi Wizard\bin\Release\FirstFloor.ModernUI.xml
+G:\Hesi Wizard\Hesi Wizard\bin\Release\FodyHelpers.xml
+G:\Hesi Wizard\Hesi Wizard\bin\Release\MaterialDesignThemes.Wpf.xml
+G:\Hesi Wizard\Hesi Wizard\bin\Release\Microsoft.Bcl.AsyncInterfaces.xml
+G:\Hesi Wizard\Hesi Wizard\bin\Release\Microsoft.Extensions.Logging.Abstractions.xml
+G:\Hesi Wizard\Hesi Wizard\bin\Release\Microsoft.Xaml.Behaviors.xml
+G:\Hesi Wizard\Hesi Wizard\bin\Release\Reloaded.WPF.Animations.xml
+G:\Hesi Wizard\Hesi Wizard\bin\Release\Reloaded.WPF.ColorMineLite.xml
+G:\Hesi Wizard\Hesi Wizard\bin\Release\System.Buffers.xml
+G:\Hesi Wizard\Hesi Wizard\bin\Release\System.Diagnostics.DiagnosticSource.xml
+G:\Hesi Wizard\Hesi Wizard\bin\Release\System.Drawing.Common.xml
+G:\Hesi Wizard\Hesi Wizard\bin\Release\System.Memory.xml
+G:\Hesi Wizard\Hesi Wizard\bin\Release\System.Numerics.Vectors.xml
+G:\Hesi Wizard\Hesi Wizard\bin\Release\System.Reactive.xml
+G:\Hesi Wizard\Hesi Wizard\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+G:\Hesi Wizard\Hesi Wizard\bin\Release\System.Threading.Tasks.Extensions.xml
+G:\Hesi Wizard\Hesi Wizard\bin\Release\System.ValueTuple.xml
+G:\Hesi Wizard\Hesi Wizard\bin\Release\Wpf.Ui.xml
+G:\Hesi Wizard\Hesi Wizard\obj\Release\Hesi Wizard.csproj.Fody.CopyLocal.cache
+G:\Hesi Wizard\Hesi Wizard\obj\Release\Hesi Wizard.csproj.Fody.RuntimeCopyLocal.cache
+G:\Hesi Wizard\Hesi Wizard\obj\Release\Hesi Wizard.csproj.CopyComplete
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\Hesi Wizard.exe.config
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\Hesi Wizard.exe
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\Hesi Wizard.pdb
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\Aspose.Zip.xml
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\Avalonia.xml
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\Avalonia.Base.xml
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\Avalonia.Controls.xml
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\Avalonia.DesignerSupport.xml
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\Avalonia.Dialogs.xml
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\Avalonia.Markup.xml
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\Avalonia.Markup.Xaml.xml
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\Avalonia.Metal.xml
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\Avalonia.MicroCom.xml
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\Avalonia.OpenGL.xml
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\Avalonia.Remote.Protocol.xml
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\FirstFloor.ModernUI.xml
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\Google.Apis.xml
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\Google.Apis.Auth.xml
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\Google.Apis.Core.xml
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\Google.Apis.Drive.v3.xml
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\MaterialDesignThemes.Wpf.xml
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\Microsoft.Xaml.Behaviors.xml
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\Newtonsoft.Json.xml
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\Reloaded.WPF.Animations.xml
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\Reloaded.WPF.ColorMineLite.xml
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\System.Buffers.xml
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\System.Drawing.Common.xml
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\System.Memory.xml
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\System.Numerics.Vectors.xml
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\System.Reactive.xml
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\System.Text.Encoding.CodePages.xml
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\System.ValueTuple.xml
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\Wpf.Ui.xml
+C:\Users\Merk\Desktop\Hesi Wizard\obj\Release\Hesi Wizard.csproj.AssemblyReference.cache
+C:\Users\Merk\Desktop\Hesi Wizard\obj\Release\Hesi Wizard.csproj.SuggestedBindingRedirects.cache
+C:\Users\Merk\Desktop\Hesi Wizard\obj\Release\MainWindow.baml
+C:\Users\Merk\Desktop\Hesi Wizard\obj\Release\MB2.baml
+C:\Users\Merk\Desktop\Hesi Wizard\obj\Release\MessageBox.baml
+C:\Users\Merk\Desktop\Hesi Wizard\obj\Release\1-Click Install.g.cs
+C:\Users\Merk\Desktop\Hesi Wizard\obj\Release\MainWindow.g.cs
+C:\Users\Merk\Desktop\Hesi Wizard\obj\Release\MB2.g.cs
+C:\Users\Merk\Desktop\Hesi Wizard\obj\Release\MessageBox.g.cs
+C:\Users\Merk\Desktop\Hesi Wizard\obj\Release\App.g.cs
+C:\Users\Merk\Desktop\Hesi Wizard\obj\Release\Hesi Wizard_MarkupCompile.cache
+C:\Users\Merk\Desktop\Hesi Wizard\obj\Release\Hesi Wizard_MarkupCompile.lref
+C:\Users\Merk\Desktop\Hesi Wizard\obj\Release\App.baml
+C:\Users\Merk\Desktop\Hesi Wizard\obj\Release\1-Click Install.baml
+C:\Users\Merk\Desktop\Hesi Wizard\obj\Release\Hesi Wizard.g.resources
+C:\Users\Merk\Desktop\Hesi Wizard\obj\Release\Avalonia\Resources.Inputs.cache
+C:\Users\Merk\Desktop\Hesi Wizard\obj\Release\Hesi_Wizard.Properties.Resources.resources
+C:\Users\Merk\Desktop\Hesi Wizard\obj\Release\Hesi Wizard.csproj.GenerateResource.cache
+C:\Users\Merk\Desktop\Hesi Wizard\obj\Release\Hesi Wizard.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Merk\Desktop\Hesi Wizard\obj\Release\Hesi Wizard.csproj.CoreCompileInputs.cache
+C:\Users\Merk\Desktop\Hesi Wizard\obj\Release\Hesi Wizard.sourcelink.json
+C:\Users\Merk\Desktop\Hesi Wizard\obj\Release\Hesi Wizard.csproj.CopyComplete
+C:\Users\Merk\Desktop\Hesi Wizard\obj\Release\Hesi Wizard.exe
+C:\Users\Merk\Desktop\Hesi Wizard\obj\Release\Hesi Wizard.pdb
+C:\Users\Merk\Desktop\Hesi Wizard\bin\Release\FodyHelpers.xml
+C:\Users\Merk\Desktop\Hesi Wizard\obj\Release\Hesi Wizard.csproj.Fody.CopyLocal.cache
+C:\Users\Merk\Desktop\Hesi Wizard\obj\Release\Hesi Wizard.csproj.Fody.RuntimeCopyLocal.cache
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Hesi Wizard.exe.config
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Hesi Wizard.exe
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Hesi Wizard.pdb
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Aspose.Zip.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Avalonia.Base.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Avalonia.Controls.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Avalonia.DesignerSupport.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Avalonia.Dialogs.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Avalonia.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Avalonia.Markup.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Avalonia.Markup.Xaml.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Avalonia.Metal.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Avalonia.MicroCom.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Avalonia.OpenGL.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Avalonia.Remote.Protocol.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\FirstFloor.ModernUI.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Google.Apis.Auth.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Google.Apis.Auth.PlatformServices.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Google.Apis.Core.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Google.Apis.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Google.Apis.Drive.v3.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Google.Apis.PlatformServices.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\JerryZGY.WPF.Animation.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\MaterialDesignColors.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\MaterialDesignThemes.Wpf.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\MicroCom.Runtime.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Microsoft.Extensions.Logging.Abstractions.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Microsoft.Xaml.Behaviors.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Newtonsoft.Json.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Reloaded.WPF.Animations.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Reloaded.WPF.ColorMineLite.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\SevenZipSharp.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\SharpCompress.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\System.Buffers.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\System.ComponentModel.Annotations.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\System.Diagnostics.DiagnosticSource.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\System.Drawing.Common.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\System.Memory.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\System.Numerics.Vectors.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\System.Reactive.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\System.Text.Encoding.CodePages.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\System.Threading.Tasks.Extensions.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\System.ValueTuple.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\WinFormAnimation.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Wpf.Ui.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\XamlFlair.WPF.dll
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Aspose.Zip.xml
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Avalonia.xml
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Avalonia.Base.xml
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Avalonia.Controls.xml
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Avalonia.DesignerSupport.xml
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Avalonia.Dialogs.xml
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Avalonia.Markup.xml
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Avalonia.Markup.Xaml.xml
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Avalonia.Metal.xml
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Avalonia.MicroCom.xml
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Avalonia.OpenGL.xml
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Avalonia.Remote.Protocol.xml
+H:\Hesi Wizard\Hesi Wizard\bin\Release\FirstFloor.ModernUI.xml
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Google.Apis.pdb
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Google.Apis.xml
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Google.Apis.Auth.pdb
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Google.Apis.Auth.xml
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Google.Apis.Core.pdb
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Google.Apis.Core.xml
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Google.Apis.Drive.v3.pdb
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Google.Apis.Drive.v3.xml
+H:\Hesi Wizard\Hesi Wizard\bin\Release\JerryZGY.WPF.Animation.pdb
+H:\Hesi Wizard\Hesi Wizard\bin\Release\MaterialDesignColors.pdb
+H:\Hesi Wizard\Hesi Wizard\bin\Release\MaterialDesignThemes.Wpf.pdb
+H:\Hesi Wizard\Hesi Wizard\bin\Release\MaterialDesignThemes.Wpf.xml
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Microsoft.Bcl.AsyncInterfaces.xml
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Microsoft.Extensions.Logging.Abstractions.xml
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Microsoft.Xaml.Behaviors.pdb
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Microsoft.Xaml.Behaviors.xml
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Newtonsoft.Json.xml
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Reloaded.WPF.Animations.xml
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Reloaded.WPF.ColorMineLite.xml
+H:\Hesi Wizard\Hesi Wizard\bin\Release\SevenZipSharp.pdb
+H:\Hesi Wizard\Hesi Wizard\bin\Release\System.Buffers.xml
+H:\Hesi Wizard\Hesi Wizard\bin\Release\System.Diagnostics.DiagnosticSource.xml
+H:\Hesi Wizard\Hesi Wizard\bin\Release\System.Drawing.Common.xml
+H:\Hesi Wizard\Hesi Wizard\bin\Release\System.Memory.xml
+H:\Hesi Wizard\Hesi Wizard\bin\Release\System.Numerics.Vectors.xml
+H:\Hesi Wizard\Hesi Wizard\bin\Release\System.Reactive.xml
+H:\Hesi Wizard\Hesi Wizard\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+H:\Hesi Wizard\Hesi Wizard\bin\Release\System.Text.Encoding.CodePages.xml
+H:\Hesi Wizard\Hesi Wizard\bin\Release\System.Threading.Tasks.Extensions.xml
+H:\Hesi Wizard\Hesi Wizard\bin\Release\System.ValueTuple.xml
+H:\Hesi Wizard\Hesi Wizard\bin\Release\Wpf.Ui.xml
+H:\Hesi Wizard\Hesi Wizard\obj\Release\Hesi Wizard.csproj.AssemblyReference.cache
+H:\Hesi Wizard\Hesi Wizard\obj\Release\MainWindow.baml
+H:\Hesi Wizard\Hesi Wizard\obj\Release\MB2.baml
+H:\Hesi Wizard\Hesi Wizard\obj\Release\MessageBox.baml
+H:\Hesi Wizard\Hesi Wizard\obj\Release\1-Click Install.g.cs
+H:\Hesi Wizard\Hesi Wizard\obj\Release\MainWindow.g.cs
+H:\Hesi Wizard\Hesi Wizard\obj\Release\MB2.g.cs
+H:\Hesi Wizard\Hesi Wizard\obj\Release\MessageBox.g.cs
+H:\Hesi Wizard\Hesi Wizard\obj\Release\App.g.cs
+H:\Hesi Wizard\Hesi Wizard\obj\Release\Hesi Wizard_MarkupCompile.cache
+H:\Hesi Wizard\Hesi Wizard\obj\Release\Hesi Wizard_MarkupCompile.lref
+H:\Hesi Wizard\Hesi Wizard\obj\Release\App.baml
+H:\Hesi Wizard\Hesi Wizard\obj\Release\1-Click Install.baml
+H:\Hesi Wizard\Hesi Wizard\obj\Release\Hesi Wizard.g.resources
+H:\Hesi Wizard\Hesi Wizard\obj\Release\Avalonia\Resources.Inputs.cache
+H:\Hesi Wizard\Hesi Wizard\obj\Release\Hesi_Wizard.Properties.Resources.resources
+H:\Hesi Wizard\Hesi Wizard\obj\Release\Hesi Wizard.csproj.GenerateResource.cache
+H:\Hesi Wizard\Hesi Wizard\obj\Release\Hesi Wizard.GeneratedMSBuildEditorConfig.editorconfig
+H:\Hesi Wizard\Hesi Wizard\obj\Release\Hesi Wizard.csproj.CoreCompileInputs.cache
+H:\Hesi Wizard\Hesi Wizard\obj\Release\Hesi Wizard.sourcelink.json
+H:\Hesi Wizard\Hesi Wizard\obj\Release\Hesi Wizard.csproj.CopyComplete
+H:\Hesi Wizard\Hesi Wizard\obj\Release\Hesi Wizard.exe
+H:\Hesi Wizard\Hesi Wizard\obj\Release\Hesi Wizard.pdb

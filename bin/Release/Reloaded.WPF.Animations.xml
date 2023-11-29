@@ -1,0 +1,510 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Reloaded.WPF.Animations</name>
+    </assembly>
+    <members>
+        <member name="T:Reloaded.WPF.Animations.Enum.ManualAnimationState">
+            <summary>
+            Defines the state of a <see cref="!:ManualAnimationController"/>.
+            </summary>
+        </member>
+        <member name="F:Reloaded.WPF.Animations.Enum.ManualAnimationState.NotStarted">
+            <summary>
+            The animation has not yet been started.
+            </summary>
+        </member>
+        <member name="F:Reloaded.WPF.Animations.Enum.ManualAnimationState.Running">
+            <summary>
+            The animation is currently running.
+            </summary>
+        </member>
+        <member name="F:Reloaded.WPF.Animations.Enum.ManualAnimationState.Paused">
+            <summary>
+            The animation is paused.
+            </summary>
+        </member>
+        <member name="F:Reloaded.WPF.Animations.Enum.ManualAnimationState.Cancelled">
+            <summary>
+            The animation has been or is about to be cancelled.
+            </summary>
+        </member>
+        <member name="F:Reloaded.WPF.Animations.Enum.ManualAnimationState.Complete">
+            <summary>
+            The animation has finished running.
+            </summary>
+        </member>
+        <member name="T:Reloaded.WPF.Animations.FrameLimiter.CircularBuffer`1">
+            <inheritdoc/>
+            <summary>
+            Circular buffer.
+            
+            When writing to a full buffer:
+            PushBack -> removes this[0] / Front()
+            PushFront -> removes this[Size-1] / Back()
+            
+            this implementation is inspired by
+            http://www.boost.org/doc/libs/1_53_0/libs/circular_buffer/doc/circular_buffer.html
+            because I liked their interface.
+            </summary>
+        </member>
+        <member name="F:Reloaded.WPF.Animations.FrameLimiter.CircularBuffer`1._start">
+            <summary>
+            The _start. Index of the first element in buffer.
+            </summary>
+        </member>
+        <member name="F:Reloaded.WPF.Animations.FrameLimiter.CircularBuffer`1._end">
+            <summary>
+            The _end. Index after the last element in the buffer.
+            </summary>
+        </member>
+        <member name="F:Reloaded.WPF.Animations.FrameLimiter.CircularBuffer`1._size">
+            <summary>
+            The _size. Buffer size.
+            </summary>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.FrameLimiter.CircularBuffer`1.#ctor(System.Int32,`0[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:Reloaded.WPF.Animations.FrameLimiter.CircularBuffer`1"/> class.
+            
+            </summary>
+            <param name='capacity'>
+            Buffer capacity. Must be positive.
+            </param>
+            <param name='items'>
+            Items to fill buffer with. Items length must be less than capacity.
+            Suggestion: use Skip(x).Take(y).ToArray() to build this argument from
+            any enumerable.
+            </param>
+        </member>
+        <member name="P:Reloaded.WPF.Animations.FrameLimiter.CircularBuffer`1.Capacity">
+            <summary>
+            Maximum capacity of the buffer. Elements pushed into the buffer after
+            maximum capacity is reached (IsFull = true), will remove an element.
+            </summary>
+        </member>
+        <member name="P:Reloaded.WPF.Animations.FrameLimiter.CircularBuffer`1.Size">
+            <summary>
+            Current buffer size (the number of elements that the buffer has).
+            </summary>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.FrameLimiter.CircularBuffer`1.Front">
+            <summary>
+            Element at the front of the buffer - this[0].
+            </summary>
+            <returns>The value of the element of type T at the front of the buffer.</returns>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.FrameLimiter.CircularBuffer`1.Back">
+            <summary>
+            Element at the back of the buffer - this[Size - 1].
+            </summary>
+            <returns>The value of the element of type T at the back of the buffer.</returns>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.FrameLimiter.CircularBuffer`1.PushBack(`0)">
+            <summary>
+            Pushes a new element to the back of the buffer. Back()/this[Size-1]
+            will now return this element.
+            
+            When the buffer is full, the element at Front()/this[0] will be 
+            popped to allow for this new element to fit.
+            </summary>
+            <param name="item">Item to push to the back of the buffer</param>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.FrameLimiter.CircularBuffer`1.PushFront(`0)">
+            <summary>
+            Pushes a new element to the front of the buffer. Front()/this[0]
+            will now return this element.
+            
+            When the buffer is full, the element at Back()/this[Size-1] will be 
+            popped to allow for this new element to fit.
+            </summary>
+            <param name="item">Item to push to the front of the buffer</param>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.FrameLimiter.CircularBuffer`1.PopBack">
+            <summary>
+            Removes the element at the back of the buffer. Decreasing the 
+            Buffer size by 1.
+            </summary>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.FrameLimiter.CircularBuffer`1.PopFront">
+            <summary>
+            Removes the element at the front of the buffer. Decreasing the 
+            Buffer size by 1.
+            </summary>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.FrameLimiter.CircularBuffer`1.ToArray">
+            <summary>
+            Copies the buffer contents to an array, according to the logical
+            contents of the buffer (i.e. independent of the internal 
+            order/contents)
+            </summary>
+            <returns>A new array with a copy of the buffer contents.</returns>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.FrameLimiter.CircularBuffer`1.Increment(System.Int32@)">
+            <summary>
+            Increments the provided index variable by one, wrapping
+            around if necessary.
+            </summary>
+            <param name="index"></param>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.FrameLimiter.CircularBuffer`1.Decrement(System.Int32@)">
+            <summary>
+            Decrements the provided index variable by one, wrapping
+            around if necessary.
+            </summary>
+            <param name="index"></param>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.FrameLimiter.CircularBuffer`1.InternalIndex(System.Int32)">
+            <summary>
+            Converts the index in the argument to an index in <code>_buffer</code>
+            </summary>
+            <returns>
+            The transformed index.
+            </returns>
+            <param name='index'>
+            External index.
+            </param>
+        </member>
+        <member name="T:Reloaded.WPF.Animations.FrameLimiter.SharpFPS">
+             <summary>
+             The <see cref="T:Reloaded.WPF.Animations.FrameLimiter.SharpFPS"/> class is a simple class that allows for control of frame pacing
+             of an arbitrary function loop, such as a graphics or game logic loop.
+             
+             Intended for graphics, it allows for function loops to run at regular time intervals by 
+             allowing you to specify a specific frequency to run the loops at in terms of frames per second
+             (hertz/how many times to execute a second).
+            
+             To use this method, simply place <see cref="M:Reloaded.WPF.Animations.FrameLimiter.SharpFPS.EndFrame(System.Boolean,System.Boolean)"/> at the end/exit points of a recurring logic
+             loop.
+             </summary>
+        </member>
+        <member name="F:Reloaded.WPF.Animations.FrameLimiter.SharpFPS._frameTimeWatch">
+            <summary>
+            Contains the stopwatch used for timing the frame time.
+            </summary>
+        </member>
+        <member name="F:Reloaded.WPF.Animations.FrameLimiter.SharpFPS._sleepWatch">
+            <summary>
+            Contains the stopwatch used for timing sleep periods.
+            </summary>
+        </member>
+        <member name="F:Reloaded.WPF.Animations.FrameLimiter.SharpFPS._frameTimeBuffer">
+            <summary>
+            Contains a history of frame times of the recent <see cref="P:Reloaded.WPF.Animations.FrameLimiter.SharpFPS.FPSLimit"/> frames.
+            </summary>
+        </member>
+        <member name="P:Reloaded.WPF.Animations.FrameLimiter.SharpFPS.FPSLimit">
+            <summary>
+            Sets or gets the current framerate cap.
+            </summary>
+        </member>
+        <member name="P:Reloaded.WPF.Animations.FrameLimiter.SharpFPS.SpinTimeRemaining">
+            <summary>
+            If using the spinning waiting method, this sets the number of milliseconds left to wait
+            until the spinning action starts.
+            </summary>
+        </member>
+        <member name="P:Reloaded.WPF.Animations.FrameLimiter.SharpFPS.FrameTimeTarget">
+            <summary>
+            [Milliseconds] Contains the current set maximum allowed time that a frame should be rendered in.
+            This value is automatically generated when you set the <see cref="P:Reloaded.WPF.Animations.FrameLimiter.SharpFPS.FPSLimit"/>.
+            </summary>
+        </member>
+        <member name="P:Reloaded.WPF.Animations.FrameLimiter.SharpFPS.StatFPS">
+            <summary>
+            Contains the current amount of frames per second.
+            </summary>
+        </member>
+        <member name="P:Reloaded.WPF.Animations.FrameLimiter.SharpFPS.StatFrameFPS">
+            <summary>
+            Contains the number of frames per second that would be rendered if all of the
+            remaining frames were to take as long as the last.
+            </summary>
+        </member>
+        <member name="P:Reloaded.WPF.Animations.FrameLimiter.SharpFPS.StatPotentialFPS">
+            <summary>
+            Contains the current amount of frames per second in the case the FPS limit were to be removed
+            according to the time spent rendering the previous frame.
+            </summary>
+        </member>
+        <member name="P:Reloaded.WPF.Animations.FrameLimiter.SharpFPS.StatOverslept">
+            <summary>
+            [Milliseconds]
+            Stores how much more time the CPU has spent sleeping than requested (by <see cref="P:Reloaded.WPF.Animations.FrameLimiter.SharpFPS.StatSleepTime"/>) on the last frame.
+            </summary>
+        </member>
+        <member name="P:Reloaded.WPF.Animations.FrameLimiter.SharpFPS.StatFrameTime">
+            <summary>
+            [Milliseconds] The amount of time spent between the start of the last and the next frame.
+            </summary>
+        </member>
+        <member name="P:Reloaded.WPF.Animations.FrameLimiter.SharpFPS.StatRenderTime">
+            <summary>
+            [Milliseconds] The amount spent rendering the last frame.
+            </summary>
+        </member>
+        <member name="P:Reloaded.WPF.Animations.FrameLimiter.SharpFPS.StatSleepTime">
+            <summary>
+            [Milliseconds] The time that will be spent sleeping during the last frame.
+            Note: Actual time slept is <see cref="P:Reloaded.WPF.Animations.FrameLimiter.SharpFPS.StatSleepTime"/> + <see cref="P:Reloaded.WPF.Animations.FrameLimiter.SharpFPS.StatOverslept"/>.
+            </summary>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.FrameLimiter.SharpFPS.#ctor">
+            <summary>
+            See summary of <see cref="T:Reloaded.WPF.Animations.FrameLimiter.SharpFPS"/>.
+            </summary>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.FrameLimiter.SharpFPS.EndFrame(System.Boolean,System.Boolean)">
+            <summary>
+            Marks the end of an individual frame/recurring piece of logic to be performed/executed.
+            You should put this at the end of a reoccuring loop.
+            </summary>
+            <param name="spin">
+                If true, uses an alternative timing method where CPU briefly spins (performs junk calculations) after sleeping slightly less time until it is precisely the time to start the next frame.
+                Increases accuracy at the expense of CPU load.
+            
+                See: <see cref="P:Reloaded.WPF.Animations.FrameLimiter.SharpFPS.SpinTimeRemaining"/> to control the time in milliseconds left to sleep at which to start spinning at.
+            </param>
+            <param name="allowSpeedup">
+                Allows for the speeding up of the frame counter to maintain target FPS by sleeping less on the next frame.
+                If set to false, frame pacer will not try to catch up on next sleep in cases of lost frames.
+            </param>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.FrameLimiter.SharpFPS.StartFrame">
+            <summary>
+            Calculates statistics for the previous frame and resets the timers to begin a new frame.
+            </summary>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.FrameLimiter.SharpFPS.Sleep(System.Boolean)">
+            <summary>
+            Pauses execution for the remaining of the time until the next frame begins.
+            </summary>
+            <param name="spin">
+                If true, uses an alternative timing method where CPU briefly spins (performs junk calculations) after sleeping slightly less time until it is precisely the time to start the next frame.
+                Increases accuracy at the expense of CPU load.
+            
+                See: <see cref="P:Reloaded.WPF.Animations.FrameLimiter.SharpFPS.SpinTimeRemaining"/> to control the time in milliseconds left to sleep at which to start spinning at.
+            </param>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.FrameLimiter.SharpFPS.Spin">
+            <summary>
+            Spins until it is time to begin the next frame.
+            </summary>
+        </member>
+        <member name="T:Reloaded.WPF.Animations.ManualAnimation`1">
+            <summary>
+            <see cref="T:Reloaded.WPF.Animations.ManualAnimation`1"/> is small utility wrapper class allowing you to make animations manually by providing an interpolation and execution function.
+            Note: This class is best explained by example, if confused please see the wiki/markdown for Reloaded.WPF for more details.
+            </summary>
+            <remarks>
+            Once an animation begins, changes made to the class properties do not take effect until the animation is played again.
+            Regarding timing of the <see cref="T:Reloaded.WPF.Animations.ManualAnimation`1"/>, the class implements frameskipping. This means that <see cref="P:Reloaded.WPF.Animations.ManualAnimation`1.ExecutionMethod"/>
+            consistently takes too long to execute, the overall length of the animation will not be extended.
+            </remarks>
+            <typeparam name="T">The type of the property that is to be animated.</typeparam>
+        </member>
+        <member name="E:Reloaded.WPF.Animations.ManualAnimation`1.OnStateChange">
+            <summary>
+            Executed when the animation is cancelled.
+            </summary>
+        </member>
+        <member name="P:Reloaded.WPF.Animations.ManualAnimation`1.Duration">
+            <summary>
+            The length of the animation, in milliseconds.
+            </summary>
+        </member>
+        <member name="P:Reloaded.WPF.Animations.ManualAnimation`1.FrameRate">
+            <summary>
+            How many times per second should the animation play at.
+            </summary>
+        </member>
+        <member name="P:Reloaded.WPF.Animations.ManualAnimation`1.InterpolationMethod">
+            <summary>
+            Defines the interpolation function used that returns a value to pass to the <see cref="P:Reloaded.WPF.Animations.ManualAnimation`1.ExecutionMethod"/> given a time between 0 and 1.
+            Tip: The interpolation function should probably be linear if using a custom <see cref="P:Reloaded.WPF.Animations.ManualAnimation`1.EasingFunction"/>. 
+            </summary>
+        </member>
+        <member name="P:Reloaded.WPF.Animations.ManualAnimation`1.ExecutionMethod">
+            <summary>
+            Defines the method to execute with the interpolated value returned from <see cref="P:Reloaded.WPF.Animations.ManualAnimation`1.InterpolationMethod"/>.
+            </summary>
+        </member>
+        <member name="P:Reloaded.WPF.Animations.ManualAnimation`1.EasingFunction">
+            <summary>
+            (Optional)
+            Represents an easing function that creates an animation that accelerates and/or decelerates using a given formula.
+            </summary>
+        </member>
+        <member name="P:Reloaded.WPF.Animations.ManualAnimation`1.Repeat">
+            <summary>
+            The number of times to repeat the animation. A number of <see cref="F:System.UInt64.MaxValue"/> signals infinite repeats.
+            </summary>
+        </member>
+        <member name="P:Reloaded.WPF.Animations.ManualAnimation`1.RepeatCount">
+            <summary>
+            The current amount of times the animation has been repeated.
+            Starts with 0.
+            </summary>
+        </member>
+        <member name="P:Reloaded.WPF.Animations.ManualAnimation`1.TimeRunning">
+            <summary>
+            The time this animation has spent running in total.
+            </summary>
+        </member>
+        <member name="P:Reloaded.WPF.Animations.ManualAnimation`1.State">
+            <summary>
+            Defines the active state of the <see cref="T:Reloaded.WPF.Animations.ManualAnimation`1"/>
+            </summary>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.ManualAnimation`1.#ctor(System.Single,System.Single)">
+            <summary>
+            Creates an instance of the <see cref="T:Reloaded.WPF.Animations.ManualAnimation`1"/> method helping create custom animations.
+            </summary>
+            <param name="duration">The length of the animation in question.</param>
+            <param name="frameRate">The framerate of the animation in question.</param>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.ManualAnimation`1.#ctor(System.Single,System.Single,System.Windows.Media.Animation.IEasingFunction)">
+            <summary>
+            Creates an instance of the <see cref="T:Reloaded.WPF.Animations.ManualAnimation`1"/> method helping create custom animations.
+            </summary>
+            <param name="duration">The length of the animation in question.</param>
+            <param name="frameRate">The framerate of the animation in question.</param>
+            <param name="easingFunction">Defines the basic functionality of an easing function.</param>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.ManualAnimation`1.#ctor(System.Single,System.Single,System.Func{System.Single,`0},System.Action{`0})">
+            <summary>
+            Creates an instance of the <see cref="T:Reloaded.WPF.Animations.ManualAnimation`1"/> method helping create custom animations.
+            </summary>
+            <param name="duration">The length of the animation in question.</param>
+            <param name="frameRate">The framerate of the animation in question.</param>
+            <param name="interpolationMethod">Defines the interpolation function used that returns a value to pass to the <see cref="P:Reloaded.WPF.Animations.ManualAnimation`1.ExecutionMethod"/> given a time between 0 and 1. </param>
+            <param name="executionMethod">
+            Defines the method to execute with the interpolated value returned from <see cref="P:Reloaded.WPF.Animations.ManualAnimation`1.InterpolationMethod"/>.
+            The return value of the function decides whether the animation should continue. i.e. if you return false, the animation will terminate.
+            </param>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.ManualAnimation`1.#ctor(System.Single,System.Single,System.Func{System.Single,`0},System.Action{`0},System.Windows.Media.Animation.IEasingFunction)">
+            <summary>
+            Creates an instance of the <see cref="T:Reloaded.WPF.Animations.ManualAnimation`1"/> method helping create custom animations.
+            </summary>
+            <param name="duration">The length of the animation in question.</param>
+            <param name="frameRate">The framerate of the animation in question.</param>
+            <param name="interpolationMethod">Defines the interpolation function used that returns a value to pass to the <see cref="P:Reloaded.WPF.Animations.ManualAnimation`1.ExecutionMethod"/> given a time between 0 and 1. </param>
+            <param name="easingFunction">Defines the basic functionality of an easing function.</param>
+            <param name="executionMethod">
+            Defines the method to execute with the interpolated value returned from <see cref="P:Reloaded.WPF.Animations.ManualAnimation`1.InterpolationMethod"/>.
+            The return value of the function decides whether the animation should continue. i.e. if you return false, the animation will terminate.
+            </param>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.ManualAnimation`1.CancelAsync">
+            <summary>
+            Cancels the animation.
+            </summary>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.ManualAnimation`1.Cancel(System.Int32)">
+            <summary>
+            Cancels the animation.
+            </summary>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.ManualAnimation`1.Pause">
+            <summary>
+            Pauses the animation.
+            </summary>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.ManualAnimation`1.Resume">
+            <summary>
+            Resumes the animation.
+            </summary>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.ManualAnimation`1.Animate">
+            <summary>
+            Starts an <see cref="T:Reloaded.WPF.Animations.ManualAnimation`1"/> on a background thread.
+            Cancels an ongoing animation, if exists.
+            </summary>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.ManualAnimation`1.AnimateManual">
+            <summary>
+            Resets the <see cref="T:Reloaded.WPF.Animations.ManualAnimation`1"/> for 'manual' use.
+            Manual use requires that you call <see cref="M:Reloaded.WPF.Animations.ManualAnimation`1.ManualUpdate(System.Single)"/> every time the animation state is to be updated.
+            </summary>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.ManualAnimation`1.ManualUpdate(System.Single)">
+            <summary>
+            Can be used to manually update the animation without the use of the background thread.
+            </summary>
+            <param name="deltaTime">Time elapsed since last call.</param>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.ManualAnimation`1.Finalize">
+            <inheritdoc />
+        </member>
+        <member name="M:Reloaded.WPF.Animations.ManualAnimation`1.Dispose">
+            <inheritdoc />
+        </member>
+        <member name="T:Reloaded.WPF.Animations.Samples.CycleColorAnimation">
+            <summary>
+            An animation that Hue cycles a given colour.
+            </summary>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.Samples.CycleColorAnimation.#ctor(System.Action{System.Windows.Media.Color},System.Windows.Media.Color,System.Single,System.Single)">
+            <summary>
+            Constructs a <see cref="T:Reloaded.WPF.Animations.Samples.CycleColorAnimation"/> given a duration, framerate and base colour.
+            </summary>
+        </member>
+        <member name="T:Reloaded.WPF.Animations.Samples.LerpColorAnimation">
+            <summary>
+            An animation that fades a colour from colour A to colour B.
+            </summary>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.Samples.LerpColorAnimation.#ctor(System.Action{System.Windows.Media.Color},System.Windows.Media.Color,System.Windows.Media.Color,System.Single,System.Single)">
+            <summary>
+            Constructs a <see cref="T:Reloaded.WPF.Animations.Samples.CycleColorAnimation"/> given a duration, framerate and base colour.
+            </summary>
+        </member>
+        <member name="T:Reloaded.WPF.Animations.Utilities.ColorConverter">
+            <summary>
+            Colour c, suitable for HUE cycling and interpolation
+            </summary>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.Utilities.ColorConverter.ToLch(System.Windows.Media.Color)">
+            <summary>
+            Converts System.Windows.Media.Color to LCH colourspace.
+            </summary>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.Utilities.ColorConverter.ToColor(Reloaded.WPF.ColorMineLite.ColorSpaces.Lch)">
+            <summary>
+            Converts LCH colour back to System.Windows.Media.Color.
+            </summary>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.Utilities.ColorConverter.ToColor(System.Collections.Generic.IEnumerable{Reloaded.WPF.ColorMineLite.ColorSpaces.Lch})">
+            <summary>
+            Converts a collection of LCH colours to Colo.
+            </summary>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.Utilities.ColorConverter.ToLch(System.Collections.Generic.IEnumerable{System.Windows.Media.Color})">
+            <summary>
+            Converts a list of colours to LCH.
+            </summary>
+        </member>
+        <member name="T:Reloaded.WPF.Animations.Utilities.ColorInterpolator">
+            <summary>
+            Utility class that provides various colour interpolations between sets of colours.
+            </summary>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.Utilities.ColorInterpolator.CalculateIntermediateColour(Reloaded.WPF.ColorMineLite.ColorSpaces.Lch,Reloaded.WPF.ColorMineLite.ColorSpaces.Lch,System.Single)">
+            <summary>
+            Calculates an intermediate colour between Colour X and Colour Y.
+            </summary>
+            <param name="sourceColor">Colour interpolation begins from.</param>
+            <param name="destinationColor">Colour interpolation ends up.</param>
+            <param name="time">A normalized time between 0-1 which dictates the interpolated colour. The formula for the returned colour is "sourceColor + ((destinationColor - sourceColor) * time)" for each of the 3 LCh components.</param>
+        </member>
+        <member name="M:Reloaded.WPF.Animations.Utilities.ColorInterpolator.GetRainbowColor(System.Single,System.Single,System.Single)">
+            <summary>
+            Retrieves a colour of the rainbow with a specified chroma and lightness.
+            </summary>
+            <param name="chroma">Range 0 to 100. The quality of a color's purity, intensity or saturation. </param>
+            <param name="lightness">Range 0 to 100. The quality (chroma) lightness or darkness.</param>
+            <param name="time">A normalized time between 0-1 which dictates the hue of the colour. The hue ranges between 0 to 360 and is calculated by time * 360.</param>
+        </member>
+    </members>
+</doc>

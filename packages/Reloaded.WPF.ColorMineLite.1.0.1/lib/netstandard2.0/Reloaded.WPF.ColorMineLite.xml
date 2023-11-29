@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Reloaded.WPF.ColorMineLite</name>
+    </assembly>
+    <members>
+        <member name="T:Reloaded.WPF.ColorMineLite.ColorSpaces.IColorSpace">
+            <summary>
+            Defines the public methods for all color spaces
+            </summary>
+        </member>
+        <member name="M:Reloaded.WPF.ColorMineLite.ColorSpaces.IColorSpace.Initialize(Reloaded.WPF.ColorMineLite.ColorSpaces.IRgb)">
+            <summary>
+            Initialize settings from an Rgb object
+            </summary>
+            <param name="color"></param>
+        </member>
+        <member name="M:Reloaded.WPF.ColorMineLite.ColorSpaces.IColorSpace.To``1">
+            <summary>
+            Convert any IColorSpace to any other IColorSpace.
+            </summary>
+            <typeparam name="T">IColorSpace type to convert to</typeparam>
+            <returns></returns>
+        </member>
+        <member name="T:Reloaded.WPF.ColorMineLite.ColorSpaces.ColorSpace">
+            <summary>
+            Abstract ColorSpace class, defines the To method that converts between any IColorSpace.
+            </summary>
+        </member>
+        <member name="M:Reloaded.WPF.ColorMineLite.ColorSpaces.ColorSpace.To``1">
+            <summary>
+            Convert any IColorSpace to any other IColorSpace
+            </summary>
+            <typeparam name="T">Must implement IColorSpace, new()</typeparam>
+        </member>
+    </members>
+</doc>
