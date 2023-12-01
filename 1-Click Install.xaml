@@ -1,0 +1,271 @@
+﻿<Window
+
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hesi_Wizard"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:Easing="clr-namespace:System.Windows.Media.Animation;assembly=PresentationFramework"
+        xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml" x:Class="Hesi_Wizard._1_Click_Install"
+        mc:Ignorable="d"
+        Title="Hesi Wizard" Height="440" Width="600"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{x:Null}"
+        AllowsTransparency="True"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen" ContentRendered="Window_ContentRendered" Visibility="Visible" Effect="{DynamicResource MaterialDesignShadowDepth3}" SnapsToDevicePixels="True" ResizeMode="CanResize" Icon="/hesi-wizard-website-favicon-color.png">
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+            <BeginStoryboard>
+                <Storyboard>
+                    <!-- Second animation for resizing with easing -->
+                    <DoubleAnimation
+                        Storyboard.TargetProperty="Width"
+                        From="144"
+                        To="600"
+                        Duration="0:0:1">
+                        <DoubleAnimation.EasingFunction>
+                            <QuadraticEase EasingMode="EaseInOut"/>
+                        </DoubleAnimation.EasingFunction>
+                    </DoubleAnimation>
+                </Storyboard>
+            </BeginStoryboard>
+        </EventTrigger>
+    </Window.Triggers>
+    <materialDesign:Card UniformCornerRadius="15" Background="#FF303030" Margin="25" materialDesign:ShadowAssist.ShadowDepth="Depth4">
+        <Grid x:Name="mainGrid">
+            <Grid.Background>
+                <ImageBrush ImageSource="/neon-lights-jabvk7ta2tu43041.png" Stretch="UniformToFill" TileMode="None"/>
+            </Grid.Background>
+            <Grid.OpacityMask>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.OpacityMask>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0" />
+                <ColumnDefinition Width="550"/>
+                <ColumnDefinition Width="0*" />
+            </Grid.ColumnDefinitions>
+            <materialDesign:Card x:Name="Top_G_Copy" HorizontalAlignment="Left" VerticalAlignment="Top" Height="165" Width="208" Grid.Column="1" Margin="322,18,0,0">
+                <materialDesign:Card.Effect>
+                    <DropShadowEffect/>
+                </materialDesign:Card.Effect>
+
+                <Grid>
+                    <!-- Button for Sol Install -->
+                    <Button x:Name="Sol_Install" Content="Sol Install" IsTabStop="False" Margin="0,128,0,0" FontStretch="Normal" FontSize="14" FontFamily="Roboto" Height="28" VerticalAlignment="Top" HorizontalAlignment="Center" Width="194" Click="Soul">
+                        <Button.Effect>
+                            <DropShadowEffect/>
+                        </Button.Effect>
+                        <Button.BorderBrush>
+                            <SolidColorBrush Color="Black" Opacity="0.35"/>
+                        </Button.BorderBrush>
+                        <Button.Background>
+                            <SolidColorBrush Color="#FFFFDE00" Opacity="0.75"/>
+                        </Button.Background>
+                    </Button>
+                    <ProgressBar x:Name="ProgressBar" Height="5" VerticalAlignment="Bottom" HorizontalAlignment="Stretch" Minimum="0" Maximum="100" Value="0" Visibility="Collapsed"/>
+                </Grid>
+            </materialDesign:Card>
+
+            <materialDesign:Card x:Name="C1" HorizontalAlignment="Left" VerticalAlignment="Top" Height="180" Width="200" Grid.Column="1" Margin="115,193,0,0">
+                <materialDesign:Card.Effect>
+                    <DropShadowEffect/>
+                </materialDesign:Card.Effect>
+                <Image x:Name="image2" HorizontalAlignment="Left" Height="104" Margin="9,20,0,0" VerticalAlignment="Top" Width="180" Source="/shutoko.webp" RenderTransformOrigin="0.482,0.497">
+                    <Image.Effect>
+                        <DropShadowEffect/>
+                    </Image.Effect>
+                </Image>
+            </materialDesign:Card>
+            <Button x:Name="CM_Install_Copy" Content="Install SRP" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="122,336,0,0" VerticalAlignment="Top" Width="186" Height="28" IsTabStop="False" BorderBrush="#FF4E3B3B" FontFamily="Roboto" Click="CM_Install_Copy_Click">
+                <Button.Background>
+                    <SolidColorBrush Color="#FF429A30" Opacity="1"/>
+                </Button.Background>
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+            </Button>
+
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="300" Height="0" Grid.Column="1"/>
+            <materialDesign:Card x:Name="Top_G" HorizontalAlignment="Left" VerticalAlignment="Top" Height="165" Width="200" Grid.Column="1" Margin="115,18,0,0">
+                <materialDesign:Card.Effect>
+                    <DropShadowEffect/>
+                </materialDesign:Card.Effect>
+                <Image x:Name="image" HorizontalAlignment="Center" Height="84" Margin="0,24,0,0" VerticalAlignment="Top" Width="78" Source="/CM.png"/>
+            </materialDesign:Card>
+            <materialDesign:Card x:Name="PCard" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="96,314,0,0" VerticalAlignment="Top" Height="44" Width="0" Background="#FF2D2D2D">
+                <materialDesign:Card.Effect>
+                    <DropShadowEffect/>
+                </materialDesign:Card.Effect>
+                <Button x:Name="Pushin_Pee_Install" Content="Install" HorizontalAlignment="Center" VerticalAlignment="Center" Width="70" Height="28" IsTabStop="False" Click="PThang">
+                    <Button.Effect>
+                        <DropShadowEffect/>
+                    </Button.Effect>
+                </Button>
+            </materialDesign:Card>
+            <materialDesign:Card x:Name="GCard" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="96,216,0,0" VerticalAlignment="Top" Height="44" Width="0" Background="#FF2D2D2D">
+                <materialDesign:Card.Effect>
+                    <DropShadowEffect/>
+                </materialDesign:Card.Effect>
+                <Button x:Name="Goosy_Woosy_Install" Content="Install" HorizontalAlignment="Center" VerticalAlignment="Center" Width="70" Height="28" IsTabStop="False" ClickMode="Release" Click="Gthang">
+                    <Button.Effect>
+                        <DropShadowEffect/>
+                    </Button.Effect>
+                </Button>
+            </materialDesign:Card>
+            <Button x:Name="CM_Install" Content="Content Manager Install" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="122,145,0,0" VerticalAlignment="Top" Width="186" Height="28" IsTabStop="False" FontFamily="Roboto" Click="CMInstall">
+                <Button.BorderBrush>
+                    <SolidColorBrush Color="Black" Opacity="0.35"/>
+                </Button.BorderBrush>
+                <Button.Background>
+                    <SolidColorBrush Color="#FFF32B21" Opacity="0.5"/>
+                </Button.Background>
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+            </Button>
+            <materialDesign:Card x:Name="TGACard" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="96,52,0,0" VerticalAlignment="Top" Height="44" Width="0" Background="#FF2D2D2D">
+                <materialDesign:Card.Effect>
+                    <DropShadowEffect/>
+                </materialDesign:Card.Effect>
+                <Button x:Name="TGA_Install" Content="Install" HorizontalAlignment="Center" VerticalAlignment="Center" Width="70" Height="28" IsTabStop="False" Click="TGA">
+                    <Button.Effect>
+                        <DropShadowEffect/>
+                    </Button.Effect>
+                </Button>
+            </materialDesign:Card>
+            <materialDesign:Card x:Name="NHCard" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="96,123,0,0" VerticalAlignment="Top" Height="44" Width="0" Background="#FF2D2D2D">
+                <materialDesign:Card.Effect>
+                    <DropShadowEffect/>
+                </materialDesign:Card.Effect>
+                <Button x:Name="No_Hezzer_Install" Content="Install" HorizontalAlignment="Center" VerticalAlignment="Center" Width="70" Height="28" IsTabStop="False" ClickMode="Release" Click="NoHesi">
+                    <Button.Effect>
+                        <DropShadowEffect/>
+                    </Button.Effect>
+                </Button>
+            </materialDesign:Card>
+            <materialDesign:Card Grid.ColumnSpan="2" HorizontalAlignment="Left" VerticalAlignment="Center" Height="390" Width="96">
+                <materialDesign:Card.Effect>
+                    <DropShadowEffect/>
+                </materialDesign:Card.Effect>
+
+            </materialDesign:Card>
+            <Image x:Name="NHImg" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="62" Margin="14,112,0,0" VerticalAlignment="Top" Width="67" Source="/PP.png">
+                <Image.Effect>
+                    <DropShadowEffect/>
+                </Image.Effect>
+            </Image>
+            <Image x:Name="TGAImg" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="84" Margin="11,29,0,0" VerticalAlignment="Top" Width="75" Source="/TGA.png" SnapsToDevicePixels="True">
+                <Image.Effect>
+                    <DropShadowEffect/>
+                </Image.Effect>
+            </Image>
+            <Image x:Name="GoosyWoosyImg" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="62" Margin="14,206,0,0" VerticalAlignment="Top" Width="67" Source="/GoosyWoosy.png" RenderTransformOrigin="0.505,0.516">
+                <Image.Effect>
+                    <DropShadowEffect/>
+                </Image.Effect>
+            </Image>
+            <Image x:Name="PeePeeImg" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="62" Margin="15,305,0,0" VerticalAlignment="Top" Width="62" Source="/channels4_profile-modified.png" RenderTransformOrigin="0.521,0.559" MouseDown="AEOButt_Click">
+                <Image.Effect>
+                    <DropShadowEffect/>
+                </Image.Effect>
+            </Image>
+            <Button x:Name="TGAButt" Click="TGAButt_Click" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="14,50,0,0" VerticalAlignment="Top" Width="68" Height="49" Opacity="0">
+                <Button.BorderBrush>
+                    <SolidColorBrush Color="#FF2196F3" Opacity="0"/>
+                </Button.BorderBrush>
+                <Button.Background>
+                    <SolidColorBrush Color="White" Opacity="0"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="NHButt" Click="NHButt_Click" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="16,114,0,0" VerticalAlignment="Top" Width="60" Height="62" Opacity="0" RenderTransformOrigin="0.541,0.917">
+                <Button.BorderBrush>
+                    <SolidColorBrush Color="#FF2196F3" Opacity="0"/>
+                </Button.BorderBrush>
+                <Button.Background>
+                    <SolidColorBrush Color="White" Opacity="0"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="GoosyWoosyButt" Click="GoosyWoosyButt_Click" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="11,204,0,0" VerticalAlignment="Top" Width="68" Height="68" Opacity="0">
+                <Button.BorderBrush>
+                    <SolidColorBrush Color="#FF2196F3" Opacity="0"/>
+                </Button.BorderBrush>
+                <Button.Background>
+                    <SolidColorBrush Color="White" Opacity="0"/>
+                </Button.Background>
+            </Button>
+            <Image x:Name="image1" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="84" Margin="387,42,0,0" VerticalAlignment="Top" Width="78" Source="/SOL.png"/>
+            <materialDesign:Card x:Name="C1_Copy" HorizontalAlignment="Left" VerticalAlignment="Top" Height="180" Width="208" Grid.Column="1" Margin="322,193,0,0">
+                <materialDesign:Card.Effect>
+                    <DropShadowEffect/>
+                </materialDesign:Card.Effect>
+                <Image x:Name="image2_Copy" HorizontalAlignment="Left" Height="68" Margin="68,38,0,0" VerticalAlignment="Top" Width="69" Source="/discord_icon_130958.ico" RenderTransformOrigin="0.482,0.497">
+                    <Image.Effect>
+                        <DropShadowEffect/>
+                    </Image.Effect>
+                </Image>
+            </materialDesign:Card>
+            <Button x:Name="CM_Install_Copy1" Content="Discord" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="329,336,0,0" VerticalAlignment="Top" Width="194" Height="28" IsTabStop="False" BorderBrush="#FF4E3B3B" FontFamily="Roboto">
+                <Button.Background>
+                    <SolidColorBrush Color="#FF738ADB" Opacity="1"/>
+                </Button.Background>
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+            </Button>
+            <materialDesign:Card Grid.ColumnSpan="2" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" Width="96" Margin="0,2,0,0">
+                <materialDesign:Card.Effect>
+                    <DropShadowEffect/>
+                </materialDesign:Card.Effect>
+
+            </materialDesign:Card>
+            <Image x:Name="exit" Grid.ColumnSpan="2" Margin="-1,3,516,357" Source="/power-button-icon-8345-Windows.ico" Cursor="Hand" MouseDown="click1" RenderTransformOrigin="0.571,0.5">
+                <Image.Effect>
+                    <DropShadowEffect/>
+                </Image.Effect>
+            </Image>
+            <Image Grid.ColumnSpan="2" Margin="60,3,458,357" Width="20" Height="20" Source="/settings-icon-14972-Windows.ico" OpacityMask="#FF424242" Cursor="Hand" MouseDown="settings_ckick">
+                <Image.Effect>
+                    <DropShadowEffect/>
+                </Image.Effect>
+            </Image>
+            <materialDesign:Card x:Name="settings" HorizontalAlignment="Left" VerticalAlignment="Center" Height="370" Width="417" Grid.Column="1" Margin="115,0,0,0" Visibility="Hidden">
+                <materialDesign:Card.Effect>
+                    <DropShadowEffect/>
+                </materialDesign:Card.Effect>
+                <ui:Button x:Name="repairbtn" Content="Repair" Margin="18,188,300,160" RenderTransformOrigin="0.515,-0.136" Background="#FF424242" Click="repairbtn_Click" Visibility="Visible">
+                    <ui:Button.Effect>
+                        <DropShadowEffect/>
+                    </ui:Button.Effect>
+                </ui:Button>
+            </materialDesign:Card>
+            <Image x:Name="Hesilogo" Grid.ColumnSpan="2" Source="/logo-no-backgroundwhite.png" Margin="184,19,85,301" Visibility="Visible"/>
+            <ui:Button x:Name="browsbttn" Content="Browse" Grid.ColumnSpan="2" Margin="133,137,318,232" Background="#FF424242" InputScope="Default" Click="Button_Click" Visibility="Visible">
+                <ui:Button.Style>
+                    <Style/>
+                </ui:Button.Style>
+                <ui:Button.Effect>
+                    <DropShadowEffect/>
+                </ui:Button.Effect>
+            </ui:Button>
+            <ui:Button Grid.Column="2" Content="Button" HorizontalAlignment="Left" Margin="255,283,0,0" VerticalAlignment="Top" Width="0"/>
+            <Label x:Name="cmpath" Content="If CM already installed (Give path)" Grid.ColumnSpan="2" Margin="131,108,231,260" Visibility="Visible"/>
+            <Label x:Name="repairlbl" Content="Repair game to defaults" Grid.ColumnSpan="2" Margin="131,172,261,187" Visibility="Visible"/>
+            <ui:Button x:Name="chkP" Content="Check path" Grid.ColumnSpan="2" Margin="133,227,318,141" Width="99" Height="22" Background="#FF424242" Click="Button_Click_2" Visibility="Visible">
+                <ui:Button.Effect>
+                    <DropShadowEffect/>
+                </ui:Button.Effect>
+            </ui:Button>
+            <ui:Button x:Name="uldimg" Content="Upload image" Grid.ColumnSpan="2" Margin="376,137,74,232" Width="99" Height="21" Background="#FF424242" Click="bkrBtn_Click">
+                <ui:Button.Effect>
+                    <DropShadowEffect/>
+                </ui:Button.Effect>
+            </ui:Button>
+            <Label x:Name="lblBrnd" Content="Custom Backround" Grid.ColumnSpan="2" Margin="373,111,9,252"/>
+        </Grid>
+    </materialDesign:Card>
+</Window>
