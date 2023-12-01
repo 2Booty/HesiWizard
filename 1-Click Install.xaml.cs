@@ -17,6 +17,7 @@ using Path = System.IO.Path;
 using SharpCompress.Common;
 using SharpCompress.Archives;
 using File = System.IO.File;
+using static System.Net.WebRequestMethods;
 
 
 namespace Hesi_Wizard
@@ -311,7 +312,13 @@ namespace Hesi_Wizard
             string[] urls = {
             "https://hwiz.b-cdn.net/PushinP/content%20ai.rar",
             "https://hwiz.b-cdn.net/PushinP/low%20spec.rar",
-            "https://hwiz.b-cdn.net/PushinP/noob%20friendly.rar"
+            "https://hwiz.b-cdn.net/PushinP/noob%20friendly.rar",
+            "https://hwiz.b-cdn.net/PushinP/jdm.rar",
+            "https://hwiz.b-cdn.net/PushinP/PushinP%20summer%20pack.rar",
+            "https://hwiz.b-cdn.net/PushinP/PUSHIN%20P%20TRAFFIC%20PACK.7z",
+            "https://hwiz.b-cdn.net/PushinP/Traffic%20Pack%20v2.7z",
+            "https://hwiz.b-cdn.net/PushinP/Traffic3%20%2B%20Standalone%20cars.rar",
+            "https://hwiz.b-cdn.net/PushinP/JDM%202%20PK.rar"
             };
 
             foreach (string url in urls)
@@ -694,7 +701,8 @@ namespace Hesi_Wizard
 
             string[] urls = {
             "https://hwiz.b-cdn.net/TGA/Traffic%20Pack.7z",
-            "https://hwiz.b-cdn.net/TGA/TGA_CARS_AIO.rar"
+            "https://hwiz.b-cdn.net/TGA/TGA_CARS_AIO.rar",
+            "https://hwiz.b-cdn.net/TGA/TGA%20PK%202.rar"
             };
 
             foreach (string url in urls)
@@ -756,7 +764,10 @@ namespace Hesi_Wizard
 
             string[] urls = {
             "https://hwiz.b-cdn.net/AEO/AEO%20Boyz%20-%20SRP%20Car%20Pack%20v1.5%20%28Aug%2029%202023%20Update%29.7z",
-            "https://hwiz.b-cdn.net/AEO/MNBA-Mods-Traffic.rar"
+            "https://hwiz.b-cdn.net/AEO/MNBA-Mods-Traffic.rar",
+            "https://hwiz.b-cdn.net/AEO/Traffic%20Pack%20JAP.7z",
+            "https://hwiz.b-cdn.net/AEO/AEO_Boyz_JDM_Car_Pack_v1.2.7z",
+            "https://hwiz.b-cdn.net/AEO/AEO%20Boyz%20JDM%20Car%20Pack%20v1.3.7z"
             };
 
             foreach (string url in urls)

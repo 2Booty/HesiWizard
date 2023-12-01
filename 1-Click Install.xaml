@@ -243,8 +243,8 @@
                     </ui:Button.Effect>
                 </ui:Button>
             </materialDesign:Card>
-            <Image x:Name="Hesilogo" Grid.ColumnSpan="2" Source="/logo-no-backgroundwhite.png" Margin="184,19,85,301" Visibility="Visible"/>
-            <ui:Button x:Name="browsbttn" Content="Browse" Grid.ColumnSpan="2" Margin="133,137,318,232" Background="#FF424242" InputScope="Default" Click="Button_Click" Visibility="Visible">
+            <Image x:Name="Hesilogo" Grid.ColumnSpan="2" Source="/logo-no-backgroundwhite.png" Margin="184,19,85,301" Visibility="Hidden"/>
+            <ui:Button x:Name="browsbttn" Content="Browse" Grid.ColumnSpan="2" Margin="133,137,318,232" Background="#FF424242" InputScope="Default" Click="Button_Click" Visibility="Hidden">
                 <ui:Button.Style>
                     <Style/>
                 </ui:Button.Style>
@@ -253,14 +253,14 @@
                 </ui:Button.Effect>
             </ui:Button>
             <ui:Button Grid.Column="2" Content="Button" HorizontalAlignment="Left" Margin="255,283,0,0" VerticalAlignment="Top" Width="0"/>
-            <Label x:Name="cmpath" Content="If CM already installed (Give path)" Grid.ColumnSpan="2" Margin="131,108,231,260" Visibility="Visible"/>
-            <Label x:Name="repairlbl" Content="Repair game to defaults" Grid.ColumnSpan="2" Margin="131,172,261,187" Visibility="Visible"/>
-            <ui:Button x:Name="chkP" Content="Check path" Grid.ColumnSpan="2" Margin="133,227,318,141" Width="99" Height="22" Background="#FF424242" Click="Button_Click_2" Visibility="Visible">
+            <Label x:Name="cmpath" Content="If CM already installed (Give path)" Grid.ColumnSpan="2" Margin="131,108,231,260" Visibility="Hidden"/>
+            <Label x:Name="repairlbl" Content="Repair game to defaults" Grid.ColumnSpan="2" Margin="131,172,261,187" Visibility="Hidden"/>
+            <ui:Button x:Name="chkP" Content="Check path" Grid.ColumnSpan="2" Margin="133,227,318,141" Width="99" Height="22" Background="#FF424242" Click="Button_Click_2" Visibility="Hidden">
                 <ui:Button.Effect>
                     <DropShadowEffect/>
                 </ui:Button.Effect>
             </ui:Button>
-            <ui:Button x:Name="uldimg" Content="Upload image" Grid.ColumnSpan="2" Margin="376,137,74,232" Width="99" Height="21" Background="#FF424242" Click="bkrBtn_Click">
+            <ui:Button x:Name="uldimg" Content="Upload image" Grid.ColumnSpan="2" Margin="376,137,74,232" Width="99" Height="21" Background="#FF424242" Click="bkrBtn_Click" Visibility="Hidden">
                 <ui:Button.Effect>
                     <DropShadowEffect/>
                 </ui:Button.Effect>
