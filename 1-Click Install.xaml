@@ -35,9 +35,6 @@
     </Window.Triggers>
     <materialDesign:Card UniformCornerRadius="15" Background="#FF303030" Margin="25" materialDesign:ShadowAssist.ShadowDepth="Depth4">
         <Grid x:Name="mainGrid">
-            <Grid.Background>
-                <ImageBrush ImageSource="/neon-lights-jabvk7ta2tu43041.png" Stretch="UniformToFill" TileMode="None"/>
-            </Grid.Background>
             <Grid.OpacityMask>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black"/>

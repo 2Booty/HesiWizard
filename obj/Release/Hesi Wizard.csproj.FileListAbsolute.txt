@@ -231,3 +231,119 @@ H:\Hesi Wizard\Hesi Wizard\obj\Release\Hesi Wizard.sourcelink.json
 H:\Hesi Wizard\Hesi Wizard\obj\Release\Hesi Wizard.csproj.CopyComplete
 H:\Hesi Wizard\Hesi Wizard\obj\Release\Hesi Wizard.exe
 H:\Hesi Wizard\Hesi Wizard\obj\Release\Hesi Wizard.pdb
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Hesi Wizard.exe.config
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Hesi Wizard.exe
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Hesi Wizard.pdb
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Aspose.Zip.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Avalonia.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Avalonia.Base.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Avalonia.Controls.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Avalonia.DesignerSupport.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Avalonia.Dialogs.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Avalonia.Markup.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Avalonia.Markup.Xaml.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Avalonia.Metal.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Avalonia.MicroCom.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Avalonia.OpenGL.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Avalonia.Remote.Protocol.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\FirstFloor.ModernUI.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Google.Apis.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Google.Apis.Auth.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Google.Apis.Core.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Google.Apis.Drive.v3.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\MaterialDesignThemes.Wpf.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Microsoft.Xaml.Behaviors.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Newtonsoft.Json.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Reloaded.WPF.Animations.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Reloaded.WPF.ColorMineLite.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\System.Buffers.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\System.Drawing.Common.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\System.Memory.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\System.Numerics.Vectors.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\System.Reactive.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\System.Text.Encoding.CodePages.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\System.ValueTuple.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Wpf.Ui.xml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\obj\Release\Hesi Wizard.csproj.AssemblyReference.cache
+C:\Users\Merk\Desktop\HesiWizard-Alpha\obj\Release\Hesi Wizard.csproj.SuggestedBindingRedirects.cache
+C:\Users\Merk\Desktop\HesiWizard-Alpha\obj\Release\MainWindow.baml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\obj\Release\MB2.baml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\obj\Release\MessageBox.baml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\obj\Release\1-Click Install.g.cs
+C:\Users\Merk\Desktop\HesiWizard-Alpha\obj\Release\MainWindow.g.cs
+C:\Users\Merk\Desktop\HesiWizard-Alpha\obj\Release\MB2.g.cs
+C:\Users\Merk\Desktop\HesiWizard-Alpha\obj\Release\MessageBox.g.cs
+C:\Users\Merk\Desktop\HesiWizard-Alpha\obj\Release\App.g.cs
+C:\Users\Merk\Desktop\HesiWizard-Alpha\obj\Release\Hesi Wizard_MarkupCompile.cache
+C:\Users\Merk\Desktop\HesiWizard-Alpha\obj\Release\Hesi Wizard_MarkupCompile.lref
+C:\Users\Merk\Desktop\HesiWizard-Alpha\obj\Release\App.baml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\obj\Release\1-Click Install.baml
+C:\Users\Merk\Desktop\HesiWizard-Alpha\obj\Release\Hesi Wizard.g.resources
+C:\Users\Merk\Desktop\HesiWizard-Alpha\obj\Release\Avalonia\Resources.Inputs.cache
+C:\Users\Merk\Desktop\HesiWizard-Alpha\obj\Release\Hesi_Wizard.Properties.Resources.resources
+C:\Users\Merk\Desktop\HesiWizard-Alpha\obj\Release\Hesi Wizard.csproj.GenerateResource.cache
+C:\Users\Merk\Desktop\HesiWizard-Alpha\obj\Release\Hesi Wizard.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Merk\Desktop\HesiWizard-Alpha\obj\Release\Hesi Wizard.csproj.CoreCompileInputs.cache
+C:\Users\Merk\Desktop\HesiWizard-Alpha\obj\Release\Hesi Wizard.sourcelink.json
+C:\Users\Merk\Desktop\HesiWizard-Alpha\obj\Release\Hesi Wizard.csproj.CopyComplete
+C:\Users\Merk\Desktop\HesiWizard-Alpha\obj\Release\Hesi Wizard.exe
+C:\Users\Merk\Desktop\HesiWizard-Alpha\obj\Release\Hesi Wizard.pdb
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Aspose.Zip.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Avalonia.Base.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Avalonia.Controls.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Avalonia.DesignerSupport.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Avalonia.Dialogs.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Avalonia.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Avalonia.Markup.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Avalonia.Markup.Xaml.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Avalonia.Metal.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Avalonia.MicroCom.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Avalonia.OpenGL.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Avalonia.Remote.Protocol.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\FirstFloor.ModernUI.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Google.Apis.Auth.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Google.Apis.Auth.PlatformServices.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Google.Apis.Core.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Google.Apis.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Google.Apis.Drive.v3.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Google.Apis.PlatformServices.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\JerryZGY.WPF.Animation.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\MaterialDesignColors.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\MaterialDesignThemes.Wpf.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\MicroCom.Runtime.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Microsoft.Xaml.Behaviors.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Newtonsoft.Json.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Reloaded.WPF.Animations.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Reloaded.WPF.ColorMineLite.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\SevenZipSharp.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\SharpCompress.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\System.Buffers.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\System.ComponentModel.Annotations.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\System.Drawing.Common.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\System.Memory.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\System.Numerics.Vectors.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\System.Reactive.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\System.Text.Encoding.CodePages.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\System.ValueTuple.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\WinFormAnimation.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Wpf.Ui.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\XamlFlair.WPF.dll
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Google.Apis.pdb
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Google.Apis.Auth.pdb
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Google.Apis.Core.pdb
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Google.Apis.Drive.v3.pdb
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\JerryZGY.WPF.Animation.pdb
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\MaterialDesignColors.pdb
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\MaterialDesignThemes.Wpf.pdb
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\Microsoft.Xaml.Behaviors.pdb
+C:\Users\Merk\Desktop\HesiWizard-Alpha\bin\Release\SevenZipSharp.pdb
